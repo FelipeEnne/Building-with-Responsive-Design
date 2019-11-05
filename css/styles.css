@@ -15,7 +15,7 @@ header {
   height: 32px;
 }
 
-.first-nav ul{
+.first-nav ul {
   display: flex;
   margin-left: 8px;
   margin-top: 1.5%;
@@ -23,6 +23,7 @@ header {
 }
 
 .first-nav a {
+  font-family: 'Poppins', sans-serif;
   text-decoration: none;
   color: hsla(0, 0%, 100%, 0.6);
   margin: 8px;
@@ -39,4 +40,43 @@ header {
 
 #first-element-nav {
   color: white;
+}
+
+.scnd-nav {
+  height: 50px;
+  background-color: white;
+}
+
+.scnd-nav ul {  
+  width: 100%;
+  list-style: none;
+  display: inline-flex;
+  gap: 15px;
+  padding-left: 17px;
+  margin-top: 18px;  
+}
+
+.navitem a {
+  float: left;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #aaa;
+  font-size: 14px;
+  letter-spacing: 0.04px;
+  line-height: 1;
+  text-decoration: none;
+  
+}
+
+.navitem a:hover {
+  color: #424242;
+}
+
+.yw-lk {
+
+}
+
+.yw-dv {
+  
 }
