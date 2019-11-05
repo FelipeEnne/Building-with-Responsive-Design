@@ -102,15 +102,16 @@ header {
 .first-grid {
   display: grid;
   grid-template: repeat(2, 1fr) / repeat(3, 1fr);
-  height: 550px;
+  height: 425px;
   gap: 10px;
 }
 
 .first-grid-article {
   margin-top: 5px;
   grid-area: 1 / 1 / span 2 / span 2;
-  background-image: url(../assets/image/1section-1article.jpg);
-  background-size: 125%;
+  background-image: url(../assets/image/1section-1article.png);
+  background-size: 100%;
+  margin-left: 13px;
 }
 
 .gradient {
@@ -118,7 +119,34 @@ header {
   height: 100%;
   background-image: url(../assets/image/gradient.png);
   background-size: cover;
-  opacity: 0.5;
+}
+
+.gradient-linear{
+   background-image: linear-gradient(transparent, black);
+   height: 100%;
+}
+
+.cover-logo{
+  width: 50%;
+  margin: 20px;
+  z-index: 20;
+  position: relative;
+}
+
+.cover-date {
+  float: right;
+  color: white;
+  margin: 15px;
+}
+
+.cover-title {
+  width: 90%;
+  margin: 12% auto;
+}
+
+.cover-title a {
+  color: white;
+  text-decoration: none;
 }
 
 /* second section  */
