@@ -166,3 +166,19 @@ header {
   max-width: 1172px;
   margin: 64px auto 30px auto;
 }
+
+.grid {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.grid-item {
+  font-family: 'Poppins', sans-serif;
+  width: 25%;
+}
+
+.grid-img img {
+  max-width: 270px;
+  height: 135;
+}
