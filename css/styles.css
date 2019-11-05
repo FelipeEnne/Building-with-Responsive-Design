@@ -137,11 +137,13 @@ header {
   float: right;
   color: white;
   margin: 15px;
+  font-family: sans-serif;
 }
 
 .cover-titles {
   width: 96%;
   margin: 5% auto auto auto;
+  font-family: sans-serif;
 }
 
 .cover-titles h2{
@@ -175,15 +177,39 @@ header {
   padding-right: 2px;
 }
 
-.first-grid-article-small {
+.first-grid-article-small-1 {
   margin-top: 5px;
   background-image: url(../assets/image/1section-2article.png);
   background-size: 100%;
   margin-left: 13px;
 }
 
+.first-grid-article-small-2 {
+  margin-top: 5px;
+  background-image: url(../assets/image/1section-3article.png);
+  background-size: 100%;
+  margin-left: 13px;
+}
+
+
 .cover-title-small {
-  font-size: 2em;
+  font-size: 1.5em;
+}
+
+.cover-titles-small {
+  margin: auto;
+  padding: 70px 20px 1px 20px;
+  font-family: sans-serif;
+}
+
+.cover-titles-small h2{
+  margin: 10px 1px;
+  font-weight: bold;
+}
+
+.cover-titles-small a {
+  color: white;
+  text-decoration: none;
 }
 
 /* second section  */
@@ -257,4 +283,30 @@ header {
 .gr-i-ft li small {
   padding-left: 7px;
   color: #aaa;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.third-grid {
+  width: 80%;
+  margin: 10px auto;
+}
+
+.third-hd-links {
+  color: #f42;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  margin: 70px auto 30px;
+}
+
+.third-hd-links a {
+  text-decoration: none;
+  color: #f42;
+}
+
+.third-hd-links a:hover {
+  text-decoration: none;
+  color: black;
 }
