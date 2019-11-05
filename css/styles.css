@@ -126,7 +126,7 @@ header {
    height: 100%;
 }
 
-.cover-logo{
+.cover-logo {
   width: 50%;
   margin: 20px;
   z-index: 20;
@@ -139,14 +139,51 @@ header {
   margin: 15px;
 }
 
-.cover-title {
-  width: 90%;
-  margin: 12% auto;
+.cover-titles {
+  width: 96%;
+  margin: 5% auto auto auto;
 }
 
-.cover-title a {
+.cover-titles h2{
+  margin: 10px 1px;
+}
+
+.cover-titles a {
   color: white;
   text-decoration: none;
+}
+
+.cover-title {
+  margin-top: 1%;
+  font-size: 3.5em;
+  font-weight: bold;
+}
+
+.cover-ul {
+  display: flex;
+}
+
+.cover-ul li {
+  color: #ffffffa6;
+  margin-right: 1%;
+}
+
+.cover-ul img {
+  height: 85%;
+  position: relative;
+  top: -2px;
+  padding-right: 2px;
+}
+
+.first-grid-article-small {
+  margin-top: 5px;
+  background-image: url(../assets/image/1section-2article.png);
+  background-size: 100%;
+  margin-left: 13px;
+}
+
+.cover-title-small {
+  font-size: 2em;
 }
 
 /* second section  */
