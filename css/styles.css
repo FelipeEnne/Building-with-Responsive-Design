@@ -27,6 +27,7 @@ header {
   text-decoration: none;
   color: hsla(0, 0%, 100%, 0.6);
   margin: 8px;
+  font-size: 13px;
 }
 
 .first-nav a:hover {
@@ -36,6 +37,16 @@ header {
 .float-left {
   float: left;
   height: 100%;
+}
+
+.float-right {
+  float: right;
+  height: 100%;
+  margin-right: 20px;
+}
+
+.float-right ul{
+  padding-top: 1%;
 }
 
 #first-element-nav {
@@ -79,4 +90,26 @@ header {
 
 .yw-dv {
   
+}
+
+.first-grid {
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+  height: 550px;
+  gap: 10px;
+}
+
+.first-grid-article {
+  margin-top: 5px;
+  grid-area: 1 / 1 / span 2 / span 2;
+  background-image: url(../assets/image/1section-1article.jpg);
+  background-size: 125%;
+}
+
+.gradient {
+  width: 100%;
+  height: 100%;
+  background-image: url(../assets/image/gradient.png);
+  background-size: cover;
+  opacity: 0.5;
 }
