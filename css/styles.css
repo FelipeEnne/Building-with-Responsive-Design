@@ -61,9 +61,7 @@ header {
 .scnd-nav ul {  
   width: 100%;
   list-style: none;
-  display: inline-flex;
-  gap: 15px;
-  padding-left: 17px;
+  display: inline-flex;    
   margin-top: 18px;  
 }
 
@@ -74,6 +72,7 @@ header {
   text-transform: uppercase;
   color: #aaa;
   font-size: 14px;
+  padding-left: 15px;
   letter-spacing: 0.04px;
   line-height: 1;
   text-decoration: none;
@@ -85,11 +84,19 @@ header {
 }
 
 .yw-lk {
-
+  text-decoration: none;
 }
 
 .yw-dv {
-  
+  font-weight: 300;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  padding-left: 15px;
+  line-height: 30px;
+  background-color: #fd3;
+  box-shadow: 1px 16px 48px rgba(1, 1, 1, 0.15);
+
 }
 
 .first-grid {
@@ -112,4 +119,22 @@ header {
   background-image: url(../assets/image/gradient.png);
   background-size: cover;
   opacity: 0.5;
+}
+
+/* second section  */
+
+.sg-hd {
+  padding-left: 20px;
+}
+
+.sg-hd a {
+  display: block;
+  text-decoration: none;
+  color: #f42;
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: capitalize;
+  max-width: 1172px;
+  margin: 64px auto 30px auto;
 }
