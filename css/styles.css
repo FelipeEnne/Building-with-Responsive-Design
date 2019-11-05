@@ -188,6 +188,12 @@ header {
 
 /* second section  */
 
+#sc-grid {
+  display: block;
+  width: 65%;
+  margin: 10px auto;
+}
+
 .sg-hd {
   padding-left: 20px;
 }
@@ -200,22 +206,55 @@ header {
   font-size: 30px;
   font-weight: 600;
   text-transform: capitalize;
+  letter-spacing: 3px;
   max-width: 1172px;
   margin: 64px auto 30px auto;
 }
 
 .grid {
-  display: flex;
+  display: flex;    
   position: relative;
   flex-wrap: wrap;
 }
 
-.grid-item {
+.grid-item {  
+  position: relative;  
   font-family: 'Poppins', sans-serif;
-  width: 25%;
+  padding: 10px 12px ;
+  margin-top: 20px;
+  width: 22%;
 }
 
 .grid-img img {
-  max-width: 270px;
-  height: 135;
+  position: relative;
+  width: 100%; 
+  margin: 0 auto;
+}
+
+.grid-img figcaption a, .gr-i-ft li a {
+  position: relative;
+  width: 100%;
+  text-decoration: none;
+  color: black;
+}
+
+.grid-img figcaption {
+  padding: 10px;
+}
+
+.grid-img figcaption a {
+  font-weight: 600;
+  line-height: 1.5;  
+  font-size: 17px;
+}
+
+.gr-i-ft {
+  display: inline-flex;
+  padding: 0 10px;
+  font-size: 12px;
+}
+
+.gr-i-ft li small {
+  padding-left: 7px;
+  color: #aaa;
 }
