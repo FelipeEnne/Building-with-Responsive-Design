@@ -110,7 +110,6 @@ header {
 .first-grid {
   display: grid;
   grid-template: repeat(2, 1fr) / repeat(3, 1fr);
-  height: 425px;
   gap: 10px;
 }
 
@@ -118,7 +117,8 @@ header {
   margin-top: 5px;
   grid-area: 1 / 1 / span 2 / span 2;
   background-image: url(../assets/image/1section-1article.png);
-  background-position: right;
+  background-size: cover;
+  background-position: center;
   margin-left: 13px;
 }
 
@@ -188,14 +188,16 @@ header {
 .first-grid-article-small-1 {
   margin-top: 5px;
   background-image: url(../assets/image/1section-2article.png);
-  background-size: 100%;
+  background-size: cover;
+  background-position: center;
   margin-left: 13px;
 }
 
 .first-grid-article-small-2 {
   margin-top: 5px;
   background-image: url(../assets/image/1section-3article.png);
-  background-size: 100%;
+  background-size: cover;
+  background-position: center;
   margin-left: 13px;
 }
 
@@ -306,7 +308,7 @@ header {
   color: #f42;
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
-  margin: 70px auto 30px;
+  margin: 73px auto 30px;
 }
 
 .third-hd-links a {
@@ -317,4 +319,44 @@ header {
 .third-hd-links a:hover {
   text-decoration: none;
   color: black;
+}
+
+.third-hd {
+  padding-left: 20px;
+}
+
+.third-hd a {
+  display: block;
+  text-decoration: none;
+  color: #f42;
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: capitalize;
+  max-width: 1172px;
+  margin: 64px auto 25px auto;
+}
+
+.third-section {
+  width: 75%;
+  margin: auto;
+}
+
+.third-div {
+  display: flex;    
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.third-article {
+  position: relative;  
+  font-family: 'Poppins', sans-serif;
+  padding: 10px 12px ;
+  margin-top: 20px;
+  width: 22%;
+}
+
+.third-article img{
+  
+  width: 22%;
 }
