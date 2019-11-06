@@ -255,7 +255,6 @@ header {
   font-weight: 600;
   text-transform: capitalize;
   letter-spacing: 3px;
-  max-width: 1172px;
   margin: 64px auto 30px auto;
 }
 
@@ -352,7 +351,6 @@ header {
   font-size: 30px;
   font-weight: 600;
   text-transform: capitalize;
-  max-width: 1172px;
   margin: 64px auto 25px auto;
 }
 
@@ -452,6 +450,9 @@ header {
   color: #aaa;
 }
 
+.float-left-third {
+  float: left;
+}
 /* third section begins */
 
 #th-grid {
@@ -626,7 +627,6 @@ header .hd-title {
   font-size: 30px;
   font-weight: 600;
   text-transform: capitalize;
-  max-width: 1172px;
   margin: 64px auto 30px auto;
 }
 
@@ -705,12 +705,13 @@ footer {
 .third-footer {
   display: flex;
   margin: auto;
-  width: 39%;
+  width: 100%;
   padding-top: 70px;
 }
 
 .third-footer div{
   display: flex;
+  margin: auto;
 }
 
 .third-footer img {
@@ -724,6 +725,25 @@ footer {
   padding-top: 3px;
   color: #aaa;
   font-size: 13px;
-  width: 425px;
+  width: 430px;
   padding-left: 5px;
+}
+
+
+@media only screen and (min-width: 1024px) {
+  .cover-ul li {
+    font-size: 12px;
+  }
+  .cover-ul img {
+    height: 60%;
+  }
+  .third-hd-links {
+    margin: 14px 22px 30px;
+  }
+  .float-left-third {
+    float: none;
+  }
+  .grid-item {
+    width: 50%;
+  }
 }
