@@ -450,8 +450,7 @@ header {
 
 #th-grid {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-wrap: wrap;  
   position: relative;
   width: 75%;
   margin: 10px auto;
@@ -462,7 +461,7 @@ header {
   font-family: 'Poppins', sans-serif;
   padding: 10px 12px;
   margin-top: 20px;
-  width: 28%;
+  width: 30%;
 }
 
 .grid-item h3 a {
@@ -501,7 +500,13 @@ header {
   width: 96%;
   margin: 5% auto auto auto;
   font-family: sans-serif;
-  top: 73%;
+  left: 3%;
+  top: 60%;
+}
+
+.tp-sbtitle {
+  font-size: 12px;
+  text-transform: uppercase;
 }
 
 .tp-sbtitle, .img-title, .frt-gr-i-ft  a {
@@ -509,9 +514,47 @@ header {
   color: white;
 }
 
-.i-cont {
-  
+.frt-gr-i-ft  a {  
+  color: hsla(0, 0%, 100%, 0.6);  
 }
+
+.frt-gr-i-ft  small {
+  padding-left: 10px;
+}
+
+.img-title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.hd-container {
+  position: relative;
+  /* display: flex; */
+  width: 100%;
+  height: 97px;
+  background-color: #424242;
+}
+
+.hd-container header {
+  position: relative;
+  width: 74%;  
+  height: 100px;
+  background-color: #f42;
+  color: aliceblue;
+}
+
+.hd-container .hdr-img {
+  width: 24%;
+  height: 100%;
+  position: relative;  
+  float: right;  
+  background-image: url(../assets/image/th-gr-one-sm.png.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+/* fourth section begins */
 
 .img-disccount {
   position: absolute;
