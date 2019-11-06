@@ -6,6 +6,9 @@ body {
 }
 
 header {
+  position: fixed;
+  margin-top: 0;
+  z-index: 22;
   width: 100%;
   background-color: black;
 }
