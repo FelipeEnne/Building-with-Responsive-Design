@@ -306,7 +306,7 @@ header {
 }
 
 .third-grid {
-  width: 80%;
+  width: 77%;
   margin: 10px auto;
 }
 
@@ -450,7 +450,7 @@ header {
   margin: 10px auto;
 }
 
-.sc-gr-item {  
+.grid-item {  
   position: relative;  
   font-family: 'Poppins', sans-serif;
   padding: 10px 12px;
@@ -458,11 +458,48 @@ header {
   width: 28%;
 }
 
-.sc-gr-item h3 a {
+.grid-item h3 a {
   position: relative;
+  font-size: 30px;
+  font-weight: 700;
   text-align: left;
   text-decoration: none;
-  color: #f42;
+  color: #f42;  
+}
+
+.img-fgr {
+  position: relative;
+  background-image: url(../assets/image/fourth-grid-1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 277px;;
+}
+
+.grad {
+  background-image: linear-gradient(transparent, black);
+  height: 100%;
+}
+
+.frt-gr-i-ft {
+  position: relative;
+  display: inline-flex;
+  padding: 1px;
+  font-size: 12px;
+  color: hsla(0, 0%, 100%, 0.6);  
+  bottom: 1px;
+}
+
+.img-article {
+  position: relative;
+  width: 96%;
+  margin: 5% auto auto auto;
+  font-family: sans-serif;
+  top: 73%;
+}
+
+.tp-sbtitle, .img-title, .frt-gr-i-ft  a {
+  text-decoration: none;
+  color: white;
 }
 
 .i-cont {
