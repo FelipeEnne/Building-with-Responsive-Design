@@ -6,9 +6,9 @@
 <!-- PROJECT TITLE -->
 
 <br />
-<h1 align="center">HTML Forms</h1>
+<h1 align="center">Building with Responsive Design</h1>
 <p align="center">
-    a brief description of the project
+    clone the The Next Web 
     <br />
 </p>
 
@@ -24,27 +24,38 @@
 * [License](#license)
 * [Contact](#contact)
 * [Acknowledgements](#acknowledgements)
-* [Commit Summary](#commit-summary)
 
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![Screenshot Image](assets/images/screenshot.png)
+### This project consists of replicating the The Next Web website putting emphasis on how it behaves differently depending on the size of the screen where the website is rendered.
 
+<br><br>
+## Desktop size
+![Screenshot Image](assets/image/screenshot/desktop.png)
+<br><br>
+## Tablet size
+![Screenshot Image](assets/image/screenshot/laptop.png)
+<br><br>
+## Mobile size
+![Screenshot Image](assets/image/screenshot/mobile.png)
+<br>
 
 
 
 ### Built With 
 
-
+* HTML 
+* CSS3 
+* Github
 
 
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-
+Just clone or download the project and open the index.html in your browser. 
 
 
 <!-- LICENSE -->
@@ -62,7 +73,3 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## Acknowledgements
 
 * Microverse.
-
-
-<!-- COMMIT -->
-## Commit Summary
