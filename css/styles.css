@@ -324,10 +324,15 @@ header {
 }
 
 .third-hd-links {
+  display: flex;
   color: #f42;
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
   margin: 73px auto 30px;
+}
+
+.third-hd-links li {
+  padding: 1px 5px;
 }
 
 .third-hd-links a {
@@ -738,10 +743,19 @@ footer {
 }
 
 .third-footer {
+  color: #aaa;
   display: flex;
   margin: auto;
   width: 100%;
   padding-top: 70px;
+}
+
+.third-footer-1 {
+  width: 246px;
+}
+
+.third-footer-2 {
+  width: 184px;
 }
 
 .third-footer div{
@@ -784,32 +798,69 @@ footer {
 }
 
 @media only screen and (min-width:769px) and (max-width: 1024px) {
+
   .cover-ul li {
     font-size: 12px;
   }
+
   .cover-ul img {
     height: 60%;
   }
+
   .third-hd-links {
     margin: 14px 22px 30px;
   }
+
   .float-left-third {
     float: none;
   }
+
   .grid-item-1 {
     width: 33%;
   }
+
   .third-article {
     width: 33%;
   }
+
+  .third-hd-links {
+    display: block;
+  }
+
+  .third-hd-links li{
+    padding: 7px 1px;
+  }
+
+  .third-hd-li-h {
+    display: none;
+  }
+
   .grid-item-4 {
     width: 50%;
   }
+
   .five-grid-item {
     width: 33%;
   }
+
   .grid {
     margin-bottom: 40px;
+  }
+
+  #sc-grid{
+    width: 100%;
+  }
+
+  .third-grid {
+    width: 100%;
+  }
+
+  .third-section {
+    width: 100%;
+  }
+
+  #ft-grid {
+    width: 100%;
   }
 }
 
@@ -960,6 +1011,18 @@ footer {
   width: 100%;
  }
 
+ .third-hd-links {
+    display: block;
+  }
+
+  .third-hd-links li{
+    padding: 7px 1px;
+  }
+
+  .third-hd-li-h {
+    display: none;
+  }
+
  /* fifth grid section begins  */
 
   #sc-grid {
@@ -985,9 +1048,12 @@ footer {
     display: flex;
   }
 
+  .five-grid-img {
+    display: flex;
+  }
+
   .five-grid-img img {
     width: 77px;
-    height: 77px;
     margin: 1px;
   }
 
@@ -1011,15 +1077,23 @@ footer {
   }
 
   .text-disccount {
-    top: 17%;    
-    left: 29%;
+    top: 90%;
+    left: 4.5%;
     font-size: 9px;
   }
 
   .img-disccount {    
-    left: 25%;
+    left: 6.2%;
+    width: 6%;
   }
 
+  .five-grid-img figcaption {
+    padding: 6px;
+  }
+
+  .five-grid-img figcaption p {
+    padding-top: 10px;
+  }
  /* ---------------  */
 
   .grid {
@@ -1028,4 +1102,42 @@ footer {
 
  /* fifth grid section ends  */
 
+ .third-grid {
+    width: 100%;
+  }
+
+  .third-section {
+    width: 100%;
+  }
+
+  #ft-grid {
+    width: 100%;
+  }
+
+}
+
+
+@media only screen and (max-width: 425px) {
+
+  .fist-footer li {
+    padding-left: 3px;
+  }
+
+  .fist-footer ul {
+    width: 346px;
+  }
+
+  .second-footer ul {
+    width: 306px;
+  }
+
+  .second-footer li {
+    padding-right: 4%;
+  }
+
+  .third-footer div {
+    display: block;
+  }
+
+  
 }
