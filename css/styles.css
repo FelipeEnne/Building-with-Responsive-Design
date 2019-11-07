@@ -264,12 +264,13 @@ header {
   flex-wrap: wrap;
 }
 
-.grid-item {  
+
+.grid-item-1 {
   position: relative;  
   font-family: 'Poppins', sans-serif;
   padding: 10px 12px ;
   margin-top: 20px;
-  width: 22%;
+  width: 25%;
 }
 
 .grid-img img {
@@ -453,9 +454,10 @@ header {
 .float-left-third {
   float: left;
 }
-/* third section begins */
 
-#th-grid {
+/* fourth section begins */
+
+#ft-grid {
   display: flex;
   flex-wrap: wrap;  
   position: relative;
@@ -463,15 +465,15 @@ header {
   margin: 10px auto;
 }
 
-.grid-item {  
+.grid-item-4 {  
   position: relative;  
   font-family: 'Poppins', sans-serif;
   padding: 10px 12px;
   margin-top: 20px;
-  width: 30%;
+  width: 33%;
 }
 
-.grid-item h3 a {
+.grid-item-4 h3 a {
   position: relative;
   font-size: 30px;
   font-weight: 700;
@@ -482,10 +484,41 @@ header {
 
 .img-fgr {
   position: relative;
-  background-image: url(../assets/image/fourth-grid-1.jpg);
   background-size: cover;
   background-position: center;
   height: 277px;;
+}
+
+.bck-th-gr-1 {
+  background-image: url(../assets/image/fourth-grid-1.jpg);
+}
+
+.bck-th-gr-2 {
+  background-image: url(../assets/image/fourth-grid-2.jpg);
+}
+
+.bck-th-gr-3 {
+  background-image: url(../assets/image/fourth-grid-3.jpg);
+}
+
+.bck-th-gr-4 {
+  background-image: url(../assets/image/fourth-grid-4.jpg);
+}
+
+.bck-th-gr-5 {
+  background-image: url(../assets/image/fourth-grid-5.jpg);
+}
+
+.bck-th-gr-6 {
+  background-image: url(../assets/image/fourth-grid-6.jpg);
+}
+
+.bck-th-gr-7 {
+  background-image: url(../assets/image/fourth-grid-7.jpg);
+}
+
+.bck-th-gr-8 {
+  background-image: url(../assets/image/fourth-grid-8.jpg);
 }
 
 .grad {
@@ -549,8 +582,8 @@ header {
   width: 75%;  
   height: 100%;
   background-color: #fff4f2;
-  font-size: 14px;
-  line-height: 1.2;
+  font-size: 78%;
+  line-height: 1;
   letter-spacing: 1.5px;
   padding: 15px;
   color: #f42;
@@ -599,7 +632,7 @@ header .hd-title {
   line-height: 1.2;
 }
 
-/* fourth section begins */
+/* fifth section begins */
 
 .img-disccount {
   position: absolute;
@@ -630,12 +663,12 @@ header .hd-title {
   margin: 64px auto 30px auto;
 }
 
-.five-grid-item {
-  position: relative;
+.five-grid-item {  
+  position: relative;  
   font-family: 'Poppins', sans-serif;
-  padding: 10px 12px;
+  padding: 10px 12px ;
   margin-top: 20px;
-  width: 20%;
+  width: 22%;
 }
 
 .five-grid-img figcaption {
