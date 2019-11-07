@@ -885,6 +885,57 @@ footer {
     padding-top: 17%;
   }
 
+  /* second grid section  */
+  #sc-grid {
+    display: block;
+    width: 96%;    
+    margin: 10px auto;
+  }
+
+  .sg-hd {
+    padding-left: 8px;
+  }
+
+  .grid-item-1 {
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 12px;
+    margin-top: 20px;
+    width: 100%;
+    height: 20%;
+  }
+
+  .grid-img  {
+    display: flex;
+  }
+
+  .grid-img img {
+    width: 77px;
+    height: 77px;
+    margin: 1px;
+  }
+
+  .grid-img figcaption {
+    padding-top: 1px;
+  }
+
+  .grid-img figcaption a {
+    font-weight: 600;
+    line-height: 1.5;
+    font-size: 17px;
+  }
+
+  .gr-i-ft {
+    display: inline-flex;
+    position: relative;
+    padding: 0 10px;
+    font-size: 12px;
+    margin-left: 11%;
+    top: -25px; 
+  }
+
+  /* end second grid section  */
+
   .float-left-third {
     float: none;
   }
