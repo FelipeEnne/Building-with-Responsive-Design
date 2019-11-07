@@ -427,7 +427,6 @@ header {
   padding-top: 10px;
   padding-bottom: 10px;
   border-bottom: 1px solid rgba(255, 68, 34, 0.25);
-  ;
 }
 
 .third-article-li a {
@@ -490,7 +489,6 @@ header {
   background-size: cover;
   background-position: center;
   height: 277px;
-  ;
 }
 
 .bck-th-gr-1 {
@@ -616,7 +614,7 @@ header .hd-title {
 
 .sub-topics li {
   padding: 10px 5px;
-  border-bottom: 1px solid #eeeeee;
+  border-bottom: 1px solid #eee;
 }
 
 .sub-topics li::before {
@@ -624,7 +622,7 @@ header .hd-title {
   color: rgb(255, 96, 68);
   font-weight: bold;
   display: inline-block;
-  width: 1em;  
+  width: 1em;
 }
 
 .sub-topics li a {
@@ -912,7 +910,9 @@ footer {
   .cover-titles-small {
     padding-top: 17%;
   }
+
   /* second grid section  */
+
   .sc-grid {
     display: block;
     width: 96%;
@@ -953,7 +953,9 @@ footer {
     margin-left: 11%;
     top: -25px;
   }
+
   /* end second grid section  */
+
   .float-left-third {
     float: none;
   }
@@ -981,7 +983,9 @@ footer {
   .third-hd-li-h {
     display: none;
   }
+
   /* fifth grid section begins  */
+
   .sc-grid {
     display: block;
     width: 96%;
@@ -1039,11 +1043,15 @@ footer {
   .five-grid-img figcaption p {
     padding-top: 10px;
   }
+
   /* ---------------  */
+
   .grid {
     display: block;
   }
+
   /* fifth grid section ends  */
+
   .third-grid {
     width: 100%;
   }
@@ -1113,11 +1121,9 @@ footer {
     position: relative;
     padding-left: 7%;
   }
-
   .third-footer-2 p {    
     padding-left: 16px;
   }
-
   .third-footer-3 {
     padding-top: 5px;
     position: relative;
