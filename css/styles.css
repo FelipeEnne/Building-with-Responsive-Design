@@ -267,33 +267,14 @@ header {
   margin: 0 auto;
 }
 
-.grid-img figcaption a,
-.gr-i-ft li a {
-  position: relative;
-  width: 100%;
-  text-decoration: none;
-  color: black;
-}
-
 .grid-img figcaption {
   padding: 10px;
-}
-
-.grid-img figcaption a {
-  font-weight: 600;
-  line-height: 1.5;
-  font-size: 17px;
 }
 
 .gr-i-ft {
   display: inline-flex;
   padding: 0 10px;
   font-size: 12px;
-}
-
-.gr-i-ft li small {
-  padding-left: 7px;
-  color: #aaa;
 }
 
 .display-flex {
@@ -456,15 +437,6 @@ header {
   width: 33%;
 }
 
-.grid-item-4 h3 a {
-  position: relative;
-  font-size: 30px;
-  font-weight: 700;
-  text-align: left;
-  text-decoration: none;
-  color: #f42;
-}
-
 .img-fgr {
   position: relative;
   background-size: cover;
@@ -532,7 +504,7 @@ header {
   text-transform: uppercase;
 }
 
-.tp-sbtitle, 
+.tp-sbtitle,
 .img-title,
 .frt-gr-i-ft a {
   text-decoration: none;
@@ -606,14 +578,6 @@ header .hd-title {
   font-weight: bold;
   display: inline-block;
   width: 1em;
-}
-
-.sub-topics li a {
-  text-decoration: none;
-  text-align: justify;
-  font-size: 13px;
-  color: #555;
-  line-height: 1.2;
 }
 
 /* fifth section begins */
@@ -945,12 +909,6 @@ footer {
     padding-top: 1px;
   }
 
-  .grid-img figcaption a {
-    font-weight: 600;
-    line-height: 1.5;
-    font-size: 17px;
-  }
-
   .gr-i-ft {
     display: inline-flex;
     position: relative;
@@ -1048,6 +1006,12 @@ footer {
   #ft-grid {
     width: 100%;
   }
+
+  .grid-img figcaption a {
+    font-weight: 600;
+    line-height: 1.5;
+    font-size: 17px;
+  }
 }
 
 @media only screen and (max-width: 425px) {
@@ -1071,10 +1035,6 @@ footer {
     height: 33%;
   }
 
-  .grid-img figcaption a {
-    line-height: 1;
-  }
-
   .gr-i-ft {
     display: inline-flex;
     position: relative;
@@ -1084,7 +1044,8 @@ footer {
     top: -7px;
   }
 
-  .img-disccount , .text-disccount {
+  .img-disccount,
+  .text-disccount {
     display: none;
   }
 
@@ -1135,6 +1096,10 @@ footer {
   .third-footer-1 p {
     width: 197px;
   }
+
+  .grid-img figcaption a {
+    line-height: 1;
+  }
 }
 
 @media only screen and (max-width: 375px) {
@@ -1177,6 +1142,42 @@ footer {
   .yw-dv {
     text-align: unset;
   }
+}
+
+.sub-topics li a {
+  text-decoration: none;
+  text-align: justify;
+  font-size: 13px;
+  color: #555;
+  line-height: 1.2;
+}
+
+.gr-i-ft li small {
+  padding-left: 7px;
+  color: #aaa;
+}
+
+.grid-item-4 h3 a {
+  position: relative;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: left;
+  text-decoration: none;
+  color: #f42;
+}
+
+.grid-img figcaption a {
+  font-weight: 600;
+  line-height: 1.5;
+  font-size: 17px;
+}
+
+.grid-img figcaption a,
+.gr-i-ft li a {
+  position: relative;
+  width: 100%;
+  text-decoration: none;
+  color: black;
 }
 
 .navitem a:hover {
