@@ -275,18 +275,11 @@ header {
   margin: 0 auto;
 }
 
-.grid-img figcaption a, .gr-i-ft li a {
+.grid-img figcaption a , .gr-i-ft li a {
   position: relative;
   width: 100%;
   text-decoration: none;
   color: black;
-}
-
-.grid-img figcaption a:hover {
-  position: relative;
-  width: 100%;
-  color: #f42;
-  text-decoration: underline;
 }
 
 .grid-img figcaption {
@@ -811,7 +804,8 @@ footer {
   }
 
   .third-hd-links {
-    margin: 14px 22px 30px;
+    margin: 1px 22px 30px;
+    display: block;
   }
 
   .float-left-third {
@@ -824,10 +818,6 @@ footer {
 
   .third-article {
     width: 33%;
-  }
-
-  .third-hd-links {
-    display: block;
   }
 
   .third-hd-links li {
@@ -878,6 +868,7 @@ footer {
 
   .scnd-nav img {
     margin-top: -72px;
+    right: 7%;
   }
 
   .burger-nav {
@@ -885,10 +876,6 @@ footer {
     padding-top: 3px;
     left: -0.9%;
     width: 6%;
-  }
-
-  .scnd-nav img {
-    right: 7%;
   }
 
   .logo-header-img {
@@ -905,9 +892,6 @@ footer {
 
   .first-grid-article {
     grid-area: unset;
-  }
-
-  .first-grid-article {
     margin-right: 13px;
   }
 
@@ -1003,10 +987,6 @@ footer {
     float: none;
   }
 
-  .third-hd-links {
-    margin: 1px 22px 30px;
-  }
-
   .third-article {
     width: 100%;
   }
@@ -1019,9 +999,6 @@ footer {
     width: 100%;
   }
 
-  .third-hd-links {
-    display: block;
-  }
 
   .third-hd-links li {
     padding: 7px 1px;
@@ -1033,16 +1010,6 @@ footer {
 
   /* fifth grid section begins  */
 
-  .sc-grid {
-    display: block;
-    width: 96%;
-    margin: 10px auto;
-  }
-
-  .sg-hd {
-    padding-left: 8px;
-  }
-
   .five-grid-item {
     position: relative;
     font-family: 'Poppins', sans-serif;
@@ -1052,10 +1019,6 @@ footer {
     height: 20%;
   }
 
-  .grid-img {
-    display: flex;
-  }
-
   .five-grid-img {
     display: flex;
   }
@@ -1063,25 +1026,6 @@ footer {
   .five-grid-img img {
     width: 77px;
     margin: 1px;
-  }
-
-  .grid-img figcaption {
-    padding-top: 1px;
-  }
-
-  .grid-img figcaption a {
-    font-weight: 600;
-    line-height: 1.5;
-    font-size: 17px;
-  }
-
-  .gr-i-ft {
-    display: inline-flex;
-    position: relative;
-    padding: 0 10px;
-    font-size: 12px;
-    margin-left: 11%;
-    top: -25px;
   }
 
   .text-disccount {
@@ -1158,7 +1102,7 @@ footer {
     top: -7px;
   }
 
-  .img-disccount, .text-disccount {
+  .img-disccount , .text-disccount {
     display: none;
   }
 
@@ -1251,5 +1195,11 @@ footer {
   .yw-dv {
     text-align: unset;
   }
-  
+}
+
+.grid-img figcaption a:hover {
+  position: relative;
+  width: 100%;
+  color: #f42;
+  text-decoration: underline;
 }
