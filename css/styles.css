@@ -42,10 +42,6 @@ header {
   font-size: 13px;
 }
 
-.first-nav a:hover {
-  color: white;
-}
-
 .float-left {
   float: left;
   height: 100%;
@@ -96,10 +92,6 @@ header {
   letter-spacing: 0.04px;
   line-height: 1;
   text-decoration: none;
-}
-
-.navitem a:hover {
-  color: #424242;
 }
 
 .yw-lk {
@@ -275,7 +267,8 @@ header {
   margin: 0 auto;
 }
 
-.grid-img figcaption a , .gr-i-ft li a {
+.grid-img figcaption a,
+.gr-i-ft li a {
   position: relative;
   width: 100%;
   text-decoration: none;
@@ -327,11 +320,6 @@ header {
 .third-hd-links a {
   text-decoration: none;
   color: #f42;
-}
-
-.third-hd-links a:hover {
-  text-decoration: none;
-  color: black;
 }
 
 .third-hd {
@@ -544,7 +532,9 @@ header {
   text-transform: uppercase;
 }
 
-.tp-sbtitle, .img-title, .frt-gr-i-ft a {
+.tp-sbtitle, 
+.img-title,
+.frt-gr-i-ft a {
   text-decoration: none;
   color: white;
 }
@@ -681,13 +671,6 @@ header .hd-title {
   font-size: 15px;
   color: black;
   text-decoration: none;
-}
-
-.five-grid-img a:hover {
-  font-weight: bold;
-  font-size: 15px;
-  color: #f42;
-  text-decoration: underline;
 }
 
 .strike {
@@ -999,7 +982,6 @@ footer {
     width: 100%;
   }
 
-
   .third-hd-links li {
     padding: 7px 1px;
   }
@@ -1195,6 +1177,26 @@ footer {
   .yw-dv {
     text-align: unset;
   }
+}
+
+.navitem a:hover {
+  color: #424242;
+}
+
+.first-nav a:hover {
+  color: white;
+}
+
+.third-hd-links a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.five-grid-img a:hover {
+  font-weight: bold;
+  font-size: 15px;
+  color: #f42;
+  text-decoration: underline;
 }
 
 .grid-img figcaption a:hover {
