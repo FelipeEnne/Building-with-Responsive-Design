@@ -1137,15 +1137,25 @@ footer {
   }
 
   .burger-nav {
-    width: 15%;
+    width: 12.5%;
   }
 
   .scnd-nav img {
-    right: 16%;
+    right: 13%;
   }
 
   .yw-dv {
     text-align: unset;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .burger-nav {
+    width: 15%;
+  }
+
+  .scnd-nav img {
+    right: 15%;
   }
 }
 
