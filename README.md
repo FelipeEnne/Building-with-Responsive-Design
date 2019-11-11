@@ -33,13 +33,13 @@
 
 <br><br>
 ## Desktop size
-![Screenshot Image](assets/image/screenshot/desktop.png)
+![Screenshot Image](assets/images/screenshot1.png)
 <br><br>
 ## Tablet size
-![Screenshot Image](assets/image/screenshot/laptop.png)
+![Screenshot Image](assets/images/screenshot2.png)
 <br><br>
 ## Mobile size
-![Screenshot Image](assets/image/screenshot/mobile.png)
+![Screenshot Image](assets/images/screenshot3.png)
 <br>
 
 
